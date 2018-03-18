@@ -1,0 +1,8 @@
+﻿  ModuleWindow.cpp
+d:\users\mi pc\desktop\handouts\sdl2_handout\modulewindow.cpp(11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+d:\users\mi pc\desktop\handouts\sdl2_handout\modulewindow.cpp(11): error C2365: 'SDL_Init': nueva definición; la definición anterior era 'función'
+  d:\users\mi pc\desktop\handouts\sdl2_handout\sdl\include\sdl.h(92): note: vea la declaración de 'SDL_Init'
+d:\users\mi pc\desktop\handouts\sdl2_handout\modulewindow.cpp(18): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+d:\users\mi pc\desktop\handouts\sdl2_handout\modulewindow.cpp(18): error C2040: 'window: 'int' se diferencia en los niveles de direccionamiento indirecto de 'SDL_Window *'
+d:\users\mi pc\desktop\handouts\sdl2_handout\modulewindow.cpp(23): error C2440: 'inicializando': no se puede realizar la conversión de 'SDL_Window *' a 'int'
+  d:\users\mi pc\desktop\handouts\sdl2_handout\modulewindow.cpp(23): note: No existe un contexto en el que sea posible realizar esta conversión
