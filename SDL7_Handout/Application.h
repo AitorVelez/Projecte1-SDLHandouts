@@ -11,14 +11,11 @@ class ModuleTextures;
 class ModuleRender;
 class ModuleParticles;
 class ModuleSceneSpace;
-class ModulePlayer;
-
-class ModuleAudio;
-class ModuleFadeToBlack;
-class Module;
 class ModuleSceneIntro;
-
-// TODO 1: Create an intro scene with rtype/intro.png that then fades to ModuleSpaceScene
+class ModulePlayer;
+class ModuleFadeToBlack;
+class ModuleCollision;
+class Module;
 
 class Application
 {
@@ -30,11 +27,11 @@ public:
 	ModuleInput* input;
 	ModuleTextures* textures;
 	ModuleSceneSpace* scene_space;
+	ModuleSceneIntro* scene_intro;
+	ModuleCollision* collision;
 	ModulePlayer* player;
 	ModuleFadeToBlack* fade;
 	ModuleParticles* particles;
-	ModuleSceneIntro* scene_intro;
-	ModuleAudio* audio;
 
 public:
 
